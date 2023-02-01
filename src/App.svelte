@@ -1,5 +1,5 @@
 <script>
-  import ReactiveStatements from "../src/components/ReactiveStatements.svelte";
+  import Logged from "./lib/Logged.svelte";
 </script>
 
-<ReactiveStatements />
+<Logged />
