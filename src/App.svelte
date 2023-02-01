@@ -1,5 +1,5 @@
 <script>
-  import  Counter  from "../src/components/Counter.svelte";
+  import ReactiveStatements from "../src/components/ReactiveStatements.svelte";
 </script>
 
-<Counter />
+<ReactiveStatements />
