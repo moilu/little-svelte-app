@@ -8,14 +8,12 @@ import AuthOnly from '../components/AuthOnly.svelte';
 <div>
     <p>Esta parte es visible para todos.</p>
 </div>
-<div>
-    <p>Esta parte solo es visible para usuarios autenticados.</p>
-</div>
 <AuthOnly />
 
 <style>
     div {
         border: 1px solid blue;
+        border-radius: 8px;
         padding: 5px 10px;
     }
 </style>
